@@ -26,4 +26,20 @@ int _sqrt(int n, int counter)
  * _sqrt_recursion - natural square root
  * @n: number
  * Return: square root value
+ */
 
+int _sqrt_recursion(int n)
+{
+	if (n < 0)
+	{
+		return (-1);
+	}
+	else if (n == 0)
+	{
+		return (0);
+	}
+	else
+	{
+		return (_sqrt(n, 1));
+	}
+}
