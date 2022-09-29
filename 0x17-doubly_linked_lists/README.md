@@ -1,1 +1,1 @@
-doubly_linked_lists in C programming
+doubly_linked_lists
